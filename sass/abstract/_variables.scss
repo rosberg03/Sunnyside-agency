@@ -1,0 +1,27 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+$font-base: 'Barlow', sans-serif;
+$font-display: 'Fraunces', serif;
+
+// FONT WEIGHTS
+$w-semi-bold: 600; // Barlow
+$w-bold: 700; // Fraunces
+$w-black: 900; // Fraunces
+
+// PRIMARY COLORS
+$c-red: hsl(7, 99%, 70%); //#fe7867
+$c-yellow: hsl(51, 100%, 49%); //#fad400
+$c-green: hsl(167, 40%, 24%); //#25564b
+$c-turquoise: hsl(168, 34%, 41%); //#458c7e
+
+// BLUE COLORS
+$c-blue: hsl(198, 62%, 26%); //#19536b
+$c-blue--light: hsl(232, 10%, 55%); //#818498
+$c-blue--dark: hsl(211, 28%, 19%); //#23303e
+
+// NEUTRAL COLORS
+$c-gray--dark: hsl(210, 9%, 39%); //#5a636c
+$c-gray--light: hsl(210, 4%, 67%); //#a7abae
+$c-white: hsl(0, 0%, 100%); //#ffffff

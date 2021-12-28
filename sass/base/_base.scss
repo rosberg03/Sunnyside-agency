@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // 1 rem = 10px
+
+    @include media(largest) {
+        font-size: 56.25%; // 1rem = 9px
+    }
+
+    @include media(large) {
+        font-size: 50%; // 1rem = 8px
+    }
+
+    @include media(medium) {
+        font-size: 43.75%; // 1rem = 7px
+    }
+
+    @include media(small) {
+        font-size: 62.5%; // 1rem = 10px
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $c-turquoise;
+    color: $c-white;
+}

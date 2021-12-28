@@ -1,0 +1,50 @@
+// BASE
+body {
+    font-family: $font-base;
+    color: $c-gray--light;
+    font-weight: $w-semi-bold;
+    font-size: 1.8rem;
+    line-height: 1.67em;
+    letter-spacing: -0.03em;
+
+    @include media(small) {
+        text-align: center;
+    }
+}
+
+// HEADINGS
+%heading--base {
+    font-family: $font-display;
+    color: $c-blue--dark;
+    font-weight: $w-black;
+    line-height: 1.25em;
+    letter-spacing: -0.05em;
+}
+
+h1 {
+    @extend %heading--base;
+    font-size: 5.6rem;
+}
+
+h2 {
+    @extend %heading--base;
+    font-size: 4rem;
+}
+
+h3 {
+    @extend %heading--base;
+    font-size: 3rem;
+}
+
+// LINKS
+a,
+a:link,
+a:visited {
+    color: currentColor;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: $c-white;
+}
